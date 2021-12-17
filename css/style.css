@@ -1,0 +1,163 @@
+* {
+  font-family: Minecraftia;
+  font-size: 16px;
+}
+
+body {
+  background-image: url(../photos/mush.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+ul {
+  text-align: right;
+  list-style: none;
+  transform: translate(-5%, 250%);
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 4px 4px;
+  border: solid 1px white;
+  box-shadow: 5px 5px rgb(0 0 0 / 30%);
+  border-radius: 7px;
+}
+
+ul li a:hover {
+  background-color: rgb(170 170 170 / 70%);
+  transition: 1s;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+img {
+  width: 32;
+  height: 32;
+  border-radius: 5px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FFFF55;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #FFFF55;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.games {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 40%;
+}
+
+.game {
+  background-color: rgb(255 255 255 / 60%);
+  box-shadow: 5px 5px rgb(0 0 0 / 30%);
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: left;
+  border-style: solid 1px white;
+  border-radius: 7px;
+  outline: none;
+  width: 100%;
+}
+
+.active, .accordion:hover {
+  background-color: rgb(170 170 170 / 70%);
+  transition: 1s;
+}
+
+.quest {
+  padding: 0 15px;
+  background: rgb(0 0 0 / 60%);
+  box-shadow: 5px 5px rgb(0 0 0 / 30%);
+  border-radius: 7px;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\2606';
+  font-size: 20px;
+  color: black;
+  float: right;
+  margin-top: -1%;
+}
+
+.tool{
+  position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.happiface {
+  position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.link{
+  width: 20%;
+  height: 20%;
+  padding: 15px;
+  margin: 15px;
+  background: rgb(0 0 0 / 60%);
+  box-shadow: 5px 5px rgb(0 0 0 / 30%);
+  border-radius: 7px;
+}
+
+.ign {
+  width: 20%;
+  height: 20%;
+  padding: 15px;
+  margin: 15px;
+  background: rgb(0 0 0 / 60%);
+  box-shadow: 5px 5px rgb(0 0 0 / 30%);
+  border-radius: 7px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+}
