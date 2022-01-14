@@ -1,6 +1,5 @@
 * {
-  font-family: Minecraftia;
-  font-size: 16px;
+  font-family: 'MinecraftiaRegular';
 }
 
 body {
@@ -14,7 +13,7 @@ body {
 ul {
   text-align: right;
   list-style: none;
-  transform: translate(-5%, 250%);
+  transform: translate(-5%, 350%);
 }
 
 ul li {
@@ -31,7 +30,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: rgb(170 170 170 / 70%);
+  background-color: rgb(199 207 225 / 70%);
   transition: 1s;
 }
 
@@ -45,6 +44,7 @@ h1 {
 
 p {
   color: white;
+  font-family: 'MinecraftiaRegular';
 }
 
 img {
@@ -75,24 +75,28 @@ a:active {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  width: 40%;
+  width: 60%;
 }
 
 .game {
+  font-size: 16px;
   background-color: rgb(255 255 255 / 60%);
   box-shadow: 5px 5px rgb(0 0 0 / 30%);
   cursor: pointer;
   padding: 15px;
   margin-top: 20px;
   text-align: left;
-  border-style: solid 1px white;
   border-radius: 7px;
   outline: none;
   width: 100%;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
 }
 
 .active, .accordion:hover {
-  background-color: rgb(170 170 170 / 70%);
+  background-color: rgb(199 207 225 / 90%);
   transition: 1s;
 }
 
@@ -105,20 +109,12 @@ a:active {
   overflow: hidden;
 }
 
-.accordion:after {
-  content: '\2606';
-  font-size: 20px;
-  color: black;
-  float: right;
-  margin-top: -1%;
-}
-
 .tool{
   position: relative;
   top: 30px;
   left: 50%;
   transform: translate(-50%);
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -130,7 +126,7 @@ a:active {
   top: 30px;
   left: 50%;
   transform: translate(-50%);
-  width: 60%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
